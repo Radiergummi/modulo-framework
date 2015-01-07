@@ -1,0 +1,25 @@
+.module {
+    margin: 5px;
+    border: 1px solid rgba(0, 0, 0, 0.2);
+    border-radius: 4px;
+    box-shadow: 0 1px 5px rgba(0, 0, 0, 0.2);
+}
+
+.module > header,
+.module > footer,
+.module > div[role="content"]:not(.module) {
+    padding: 15px;
+}
+
+.module > header {
+    border-bottom: 1px solid rgba(0, 0, 0, 0.15);
+}
+
+.module > footer {
+    border-top: 1px solid rgba(0, 0, 0, 0.15);
+}
+
+
+.module > div[role="content"]:not(:only-child):not(:last-of-type) {
+    border-bottom: 1px solid rgba(0, 0, 0, 0.15);
+}
