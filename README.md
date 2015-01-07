@@ -9,5 +9,5 @@ See this general, ridiculously nested fiddle to quicky see the abilities of the 
 http://jsfiddle.net/gh/get/library/pure/Radiergummi/modulo-framework/tree/master/Demo
 <iframe
   style="width: 100%; height: 300px"
-  src="http://jsfiddle.net/zalun/NmudS/embedded/">
+  src="http://jsfiddle.net/gh/get/library/pure/Radiergummi/modulo-framework/tree/master/Demo">
 </iframe>
