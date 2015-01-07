@@ -1,0 +1,12 @@
+This is a demo file to generate a new jsfiddle.
+
+---
+ name: Modulo Demo
+ description: A showcase of some Modulo components
+ authors:
+   - Moritz Friedrich
+ resources:
+   - http://github.com/Radiergummi/modulo-framework/demo/demo.html
+   - http://github.com/Radiergummi/modulo-framework/demo/demo.css
+ normalize_css: yes
+ ...
