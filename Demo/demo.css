@@ -1,51 +1,61 @@
 /*demo styling (I hate serif fonts)*/
- body {
-    font-family:sans-serif
-}
+ body {font-family:sans-serif}
+
 /******************************* modules */
- .module {
+.module {
     margin: 5px;
     border: 1px solid rgba(0, 0, 0, 0.2);
     border-radius: 4px;
     background: rgba(255,255,255,1);
     box-shadow: 0 1px 5px rgba(0, 0, 0, 0.2);
 }
-.module > header, .module > footer {
+
+.module > header,
+.module > footer {
     padding: 15px;
 }
-.module > div[role="container"] {
+
+.module > div.container {
     padding: 0;
 }
+
 .module > header {
     border-bottom: 1px solid rgba(0, 0, 0, 0.15);
 }
+
 .module > footer {
     border-top: 1px solid rgba(0, 0, 0, 0.15);
 }
+
 [data-type="stack-vertical"] > :not(:only-child):not(:last-of-type) {
     border-bottom: 1px solid rgba(0, 0, 0, 0.15);
 }
 /******************************* lists */
- ul[role="list"] {
+ul.list { 
     padding: 0;
 }
-ul[role="list"] > li {
+
+ul.list > li {
     padding: 10px 15px;
 }
-ul[role="list"] > li.rich {
+
+ul.list > li.rich {
     display: table;
     width: 100%;
     padding: 0;
 }
-ul[role="list"] > li.rich > div {
+
+ul.list > li.rich > div {
     display: table-cell;
 }
-ul[role="list"] > li.rich > .media {
+
+ul.list > li.rich > .media {
     width: 50px;
     height: 100%;
     background: #4679BD;
 }
-ul[role="list"] > li.rich > .text {
+
+ul.list.list > li.rich > .text {
     vertical-align: middle;
     padding: 10px;
 }
