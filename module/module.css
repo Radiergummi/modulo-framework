@@ -1,3 +1,4 @@
+
 .module {
     margin: 5px;
     border: 1px solid rgba(0, 0, 0, 0.2);
@@ -11,7 +12,7 @@
     padding: 15px;
 }
 
-.module > div[role="container"] {
+.module > div.container {
     padding: 0;
 }
 
