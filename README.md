@@ -7,3 +7,7 @@ Currently, Modulo is entirely CSS but will be extended with plain JS components 
 
 See this general, ridiculously nested fiddle to quicky see the abilities of the library:  
 http://jsfiddle.net/gh/get/library/pure/Radiergummi/modulo-framework/tree/master/Demo
+<iframe
+  style="width: 100%; height: 300px"
+  src="http://jsfiddle.net/zalun/NmudS/embedded/">
+</iframe>
