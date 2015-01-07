@@ -22,7 +22,7 @@ ul.list > li.rich > .media {
     background: #4679BD;
 }
 
-ul.list.list > li.rich > .text {
+ul.list > li.rich > .text {
     vertical-align: middle;
     padding: 10px;
 }
