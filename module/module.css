@@ -6,9 +6,12 @@
 }
 
 .module > header,
-.module > footer,
-.module > div[role="content"]:not(.module) {
+.module > footer {
     padding: 15px;
+}
+
+.module > div[role="container"] {
+    padding: 0;
 }
 
 .module > header {
@@ -19,7 +22,6 @@
     border-top: 1px solid rgba(0, 0, 0, 0.15);
 }
 
-
-.module > div[role="content"]:not(:only-child):not(:last-of-type) {
+[data-type="stack-vertical"] > :not(:only-child):not(:last-of-type) {
     border-bottom: 1px solid rgba(0, 0, 0, 0.15);
 }
