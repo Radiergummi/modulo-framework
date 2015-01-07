@@ -1,28 +1,28 @@
-ul[role="list"] { 
+ul.list { 
     padding: 0;
 }
 
-ul[role="list"] > li {
+ul.list > li {
     padding: 10px 15px;
 }
 
-ul[role="list"] > li.rich {
+ul.list > li.rich {
     display: table;
     width: 100%;
     padding: 0;
 }
 
-ul[role="list"] > li.rich > div {
+ul.list > li.rich > div {
     display: table-cell;
 }
 
-ul[role="list"] > li.rich > .media {
+ul.list > li.rich > .media {
     width: 50px;
     height: 100%;
     background: #4679BD;
 }
 
-ul[role="list"] > li.rich > .text {
+ul.list.list > li.rich > .text {
     vertical-align: middle;
     padding: 10px;
 }
