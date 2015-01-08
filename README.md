@@ -29,5 +29,5 @@ The modal appears upon reload (if not, put that IE back into it's grave!) and is
 </div>
 ```
 
-Now you could add styles for all social network sharing dialogs and use simple JS to work with this one in particular (`document.getElementById('#gplus')`).  
+Now you could add styles for all social network sharing dialogs (`.modal.social { background: lightblue }`) and use simple JS to work with this one in particular (`document.getElementById('#gplus')`).  
 Please refrain from hacking the base code and use additional identifiers! That helps building clean code with containers and content separated.  
