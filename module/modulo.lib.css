@@ -72,4 +72,5 @@ ul.list.list > li.rich > .text {
     border: 1px solid rgba(0, 0, 0, 0.2);
     border-radius: 4px;
     background: rgba(255, 255, 255, 1);
+    box-shadow: 0 1px 5px rgba(0, 0, 0, 0.2);
 }
